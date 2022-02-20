@@ -44,7 +44,7 @@ function generateMarkdown(data) {
  ${data.credits}
  ------------------
  ## Experiances
- ${data.experiances}
+ ${data.experiences}
  ------------------
  ## Licensing
  ${data.license}
