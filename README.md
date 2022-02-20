@@ -1,12 +1,10 @@
 # Professional-README-Generator-by-NodeJS
 ***
 
-## 09 Node.js Homework: Professional README Generator
-***
-
 Deployed website link -> 
 
 Demo Video -> 
+***
 
 ## Table of Contents
 ***
@@ -18,7 +16,7 @@ Demo Video ->
 5. [Installation](#installation)
 6. [Acceptance Criteria](#acceptance-criteria)
 7. [Grading Requirement](#grading-requirement)
-8. [Mock Up](#mock-up)
+***
 
 ## General Info
 ***
@@ -39,6 +37,7 @@ This week’s Challenge is to create an application that can use to generate a r
 node index.js
 
 * Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video and add it to the README of your project.
+***
 
 ## User Story
 ***
@@ -46,11 +45,13 @@ node index.js
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
+***
 
 ## Technologies
 ***
 
 This app will run in the browser. Build README.md through node.js.
+***
 
 ## Installation
 ***
@@ -95,6 +96,7 @@ $ git push origin main
 4. Reach out to your classmates and instructional support team for help if you need it.
 
 5. Follow the submission instructions.
+***
 
 ## Acceptance Criteria
 *** 
@@ -123,11 +125,13 @@ WHEN I enter a description, installation instructions, usage information, contri
 THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 WHEN I choose a license for my application from a list of options
 THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+***
 
 ## Grading Requirements
 ***
 
 This homework is graded based on the following criteria:
+***
 
 Deliverables: 20%
 ***
@@ -135,6 +139,7 @@ Deliverables: 20%
 A sample README generated using the application must be submitted.
 
 Your GitHub repository containing your application code.
+***
 
 Walkthrough Video: 27%
 ***
@@ -146,6 +151,7 @@ The walkthrough video must demonstrate how a user would invoke the application f
 The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
 
 The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
+***
 
 Technical Acceptance Criteria: 40%
 ***
@@ -153,6 +159,7 @@ Technical Acceptance Criteria: 40%
 Satisfies all of the above acceptance criteria plus the following:
 
 Uses the Inquirer package.
+***
 
 Repository Quality: 13%
 ***
@@ -166,6 +173,7 @@ Repository follows best practices for class/id naming conventions, indentation, 
 Repository contains multiple descriptive commit messages.
 
 Repository contains a high-quality README with description and a link to walkthrough video.
+***
 
 ### Review
 ***
@@ -178,7 +186,5 @@ You are required to submit the following for review:
 * A sample README.md file for a project repository generated using your application
 
 * The URL of the GitHub repository, with a unique name and a README describing the project
-
-### Mock Up
 ***
 
