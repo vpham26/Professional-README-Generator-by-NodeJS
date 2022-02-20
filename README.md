@@ -68,7 +68,7 @@ Here are some guidelines to help you get started:
 
 * Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
 
-Clone the starter code (Links to an external site.).
+1. Clone the starter code (Links to an external site.).
     
 $ git clone https://github.com/coding-boot-camp/potential-enigma
 
