@@ -27,7 +27,7 @@ function generateMarkdown(data) {
    - [Installation](#installation)
    - [Usage](#usage)
    - [Credits](#credits)
-   - [Experiances](#experiances)
+   - [Experiences](#experiences)
    - [Licensing](#licensing)
    - [Questions](#questions)
  
@@ -43,7 +43,7 @@ function generateMarkdown(data) {
  ## Credits
  ${data.credits}
  ------------------
- ## Experiances
+ ## Experiences
  ${data.experiences}
  ------------------
  ## Licensing
