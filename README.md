@@ -8,7 +8,24 @@ Deployed website link ->
 
 Demo Video -> 
 
-### Your Task
+## Table of Contents
+***
+
+1. [General Info](#general-info)
+2. [Your Task](#your-task)
+3. [User Story](#user-story)
+4. [Technologies](#technologies)
+5. [Installation](#installation)
+6. [Acceptance Criteria](#acceptance-criteria)
+7. [Grading Requirement](#grading-requirement)
+8. [Mock Up](#mock-up)
+
+## General Info
+***
+
+This week’s Challenge is to create an application that can use to generate a random password based on criteria selected.
+
+## Your Task
 ***
 
 * When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
@@ -23,15 +40,64 @@ node index.js
 
 * Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video and add it to the README of your project.
 
-### User Story
+## User Story
 ***
 
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 
-#### Acceptance Criteria
+## Technologies
 ***
+
+This app will run in the browser. Build README.md through node.js.
+
+## Installation
+***
+
+### Getting Started
+***
+
+Here are some guidelines to help you get started:
+
+* Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn’t tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
+
+* Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
+
+* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+
+* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+
+Clone the starter code (Links to an external site.).
+    
+$ git clone https://github.com/coding-boot-camp/potential-enigma
+
+$ git check out develop
+
+$ git touch git.ignore 
+
+$ node index.js (check if the codes work) 
+
+$ git add .
+
+$ git commit -m "" (make commits along the process)
+
+$ git push develop
+
+$ git merge master 
+
+$ git push origin main
+
+2. Modify the code to meet the Acceptance Criteria.
+
+3. Ensure that your work meets the full list of grading requirements below.
+
+4. Reach out to your classmates and instructional support team for help if you need it.
+
+5. Follow the submission instructions.
+
+## Acceptance Criteria
+*** 
 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -48,21 +114,17 @@ WHEN I enter my email address
 THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
-#### Getting Started
-***
-
-Here are some guidelines to help you get started:
-
-* Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn’t tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
-
-* Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
-
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-#### Grading Requirements
+## Grading Requirements
 ***
 
 This homework is graded based on the following criteria:
@@ -105,7 +167,7 @@ Repository contains multiple descriptive commit messages.
 
 Repository contains a high-quality README with description and a link to walkthrough video.
 
-#### Review
+### Review
 ***
 
 You are required to submit the following for review:
@@ -116,3 +178,7 @@ You are required to submit the following for review:
 * A sample README.md file for a project repository generated using your application
 
 * The URL of the GitHub repository, with a unique name and a README describing the project
+
+### Mock Up
+***
+
