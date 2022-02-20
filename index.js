@@ -33,7 +33,7 @@ const questions = [
     {
         type: "input",
         name: "experiances",
-        message: "What positive or negative experiances did you have?"
+        message: "What positive or negative experiences did you have?"
     },
     {
         type: "list",
