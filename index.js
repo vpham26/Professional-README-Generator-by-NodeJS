@@ -8,7 +8,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is the name of the repo"
+        message: "What is the name of the repo?"
     },
     {
         type: "input",
@@ -18,12 +18,12 @@ const questions = [
     {
         type: "input",
         name: "installation",
-        message: "How do you install this project"
+        message: "How do you install this project?"
     },
     {
         type: "input",
         name: "usage",
-        message: "What are the instructions to use this application"
+        message: "What are the instructions to use this application?"
     },
     {
         type: "input",
@@ -32,13 +32,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "experiances",
+        name: "experiences",
         message: "What positive or negative experiences did you have?"
     },
     {
         type: "list",
         name: "license",
-        message: "What license is used in the repo",
+        message: "What license is used in the repo?",
         choices: ["MIT", "GPL", "None"]
     },
     {
