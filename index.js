@@ -13,7 +13,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Give a quick description of the project"
+        message: "Short description of the project"
     },
     {
         type: "input",
@@ -23,17 +23,17 @@ const questions = [
     {
         type: "input",
         name: "usage",
-        message: "What are the instructions to use this application?"
+        message: "How to use this application?"
     },
     {
         type: "input",
         name: "credits",
-        message: "Do you want to include any collaborators or 3rd party resources?"
+        message: "Do you have any collaborator?"
     },
     {
         type: "input",
         name: "experiences",
-        message: "What positive or negative experiences did you have?"
+        message: "What are the challenges you've had?"
     },
     {
         type: "list",
