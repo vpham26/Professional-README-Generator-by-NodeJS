@@ -1,220 +1,96 @@
-# Professional-README-Generator-by-NodeJS
-***
+## 10 Object-Oriented Programming: Team Profile Generator
+[![License: MIT](https://img.shields.io/github/license/VulongPham/Team-Profile-Generator?style=plastic)](https://opensource.org/licenses/MIT)
 
-![Screenshot (181)](https://user-images.githubusercontent.com/78709516/154874666-5352d3a9-aa7d-4e12-98fd-c83d4228f351.png)
 
-![Screenshot (182)](https://user-images.githubusercontent.com/78709516/154874654-bef5b7ef-7b23-492f-bb1c-258c1c906b5f.png)
+## Description 
+A Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so the scope of this project includes writing a unit test for every part of the code and ensuring that it passes each test.
 
-![Screenshot (183)](https://user-images.githubusercontent.com/78709516/154874643-48c0d0c3-31f8-4155-b5a4-853bd422e412.png)
+### Motivation
+Streamlining each step of the programming process enables the developer to spend more time problem-solving and less time duplicating efforts. Automating the process of creating README.md files is one step in streamlining project development.
 
-Deployed website link -> https://vpham26.github.io/Professional-README-Generator-by-NodeJS/
-
-Demo Video -> https://drive.google.com/file/d/1L1MTexPWk_q8l9nUkFCkmRq1xf_fp2F0/view
-***
+### Learning Targets
+This exercise provided my first experience with writing tests and utilizing jestjs.io to do so.
 
 ## Table of Contents
-***
+- [Core Objectives Met](#Core)
+- [Technologies Used](#Technologies)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#MIT)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 
-1. [General Info](#general-info)
-2. [Your Task](#your-task)
-3. [User Story](#user-story)
-4. [Technologies](#technologies)
-5. [Installation](#installation)
-6. [Acceptance Criteria](#acceptance-criteria)
-7. [Grading Requirement](#grading-requirement)
-***
+## Core Objectives Met
 
-## General Info
-***
+1. Following user responses to prompts for team members and their information, an HTML file is generated that displays a nicely formatted team roster based on user input. 
+2. When a user clicks on an email address in the HTML, their default email program opens and populates the TO field of the email with the address.
+3. When a user clicks on the GitHub username, that GitHub profile opens in a new tab.
+4. When a user starts the application, they are prompted to enter the team manager’s name, employee ID, email address, and office number.
+5. When a user enters the team manager's name, employee ID, email address, and office number, they are presented with a menu with the option to add an engineer or an intern or to finish building their team.
+6. When a user selects the engineer option, then they are prompted to enter the engineer’s name, ID, email, and GitHub username, and are taken back to the menu. 
+7. When a user selects the intern option, then they are prompted to enter the intern’s name, ID, email, and school, and are taken back to the menu.
+8. When a user is finished building their team, then they exit the application and the HTML is generated.
 
-This week’s Challenge is to create an application that can use to generate a random password based on criteria selected.
-
-## Your Task
-***
-
-* When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project.
-
-* You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
-* Your task is to create a command-line application that dynamically generates a professional README.md file from a user’s input using the Inquirer package. Review the Good README Guide as a reminder of everything that a high-quality, professional README should contain.
-
-* The application will be invoked by using the following command:
-
-node index.js
-
-* Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video and add it to the README of your project.
-***
-
-## User Story
-***
-
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-***
-
-## Technologies
-***
-
-This app will run in the browser. Build README.md through node.js.
-***
+## Technologies Used
+- JavaScript
+- Node.js
+- Shields.io
+- Jestjs.io
+- [NPM Inquirer Package](https://www.npmjs.com/package/inquirer)
+- [NPM FS Package](https://www.npmjs.com/package/fs)
+- [NPM Colors Package](https://www.npmjs.com/package/colors)
 
 ## Installation
+
+1. Clone this Team-Profile-Generator repo to your machine.
+2. Open the repo in your terminal.
+3. Run ```npm init```
+4. Run ```npm install```
+
+## Usage
+
+1. Open Team-Profile-Generator (now stored on your machine) in your terminal.
+2. Run ``` node index.js ```
+2. You will be prompted to answer questions about your team. Answer each question.
+3. Your My-Team.html file will write to the output folder. 
+
 ***
+## Screenshots and Demo Videos 
 
-### Getting Started
-***
+[VIDEO LINK | Full Application Demonstration]()  <br /> 
+DESCRIPTION: *Running tests, then creating a My-Team HTML file by following the in-terminal prompts. Verifying that the My-Team file is created and meets project requirements.*
 
-Here are some guidelines to help you get started:
 
-* Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn’t tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
+SCREENSHOT | *Demo console*
 
-* Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
+![My-Team Console screenshot.]()
 
-* Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+SCREENSHOT | *Demo My Team HTML file* 
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
+![My-Team.html output screenshot.]()
 
-1. Clone the starter code (Links to an external site.).
-    
-$ git clone https://github.com/coding-boot-camp/potential-enigma
+## MIT License
+&copy;2022
 
-$ git check out develop
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-$ git touch git.ignore 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-$ node index.js (check if the codes work) 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-$ git add .
-
-$ git commit -m "" (make commits along the process)
-
-$ git push develop
-
-$ git merge master 
-
-$ git push origin main
-
-2. Modify the code to meet the Acceptance Criteria.
-
-3. Ensure that your work meets the full list of grading requirements below.
-
-4. Reach out to your classmates and instructional support team for help if you need it.
-
-5. Follow the submission instructions.
-***
-
-## Acceptance Criteria
-*** 
-
-GIVEN a command-line application that accepts user input
-
-WHEN I am prompted for information about my application repository
-
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-WHEN I enter my project title
-
-THEN this is displayed as the title of the README
-
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-WHEN I choose a license for my application from a list of options
-
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-
-WHEN I enter my GitHub username
-
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
-WHEN I enter my email address
-
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-
-WHEN I click on the links in the Table of Contents
-
-
-THEN I am taken to the corresponding section of the README
-
-GIVEN a command-line application that accepts user input
-
-WHEN I am prompted for information about my application repository
-
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-WHEN I enter my project title
-
-THEN this is displayed as the title of the README
-
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-
-WHEN I choose a license for my application from a list of options
-
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-***
-
-## Grading Requirements
-***
-
-This homework is graded based on the following criteria:
-***
-
-Deliverables: 20%
-***
-
-A sample README generated using the application must be submitted.
-
-Your GitHub repository containing your application code.
-***
-
-Walkthrough Video: 27%
-***
-
-A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-***
-
-Technical Acceptance Criteria: 40%
-***
-
-Satisfies all of the above acceptance criteria plus the following:
-
-Uses the Inquirer package.
-***
-
-Repository Quality: 13%
-***
-
-Repository has a unique name.
-
-Repository follows best practices for file structure and naming conventions.
-
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-Repository contains multiple descriptive commit messages.
-
-Repository contains a high-quality README with description and a link to walkthrough video.
-***
-
-### Review
-***
-
-You are required to submit the following for review:
-***
-
-* A walkthrough video demonstrating the functionality of the application.
-
-* A sample README.md file for a project repository generated using your application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-***
+## Questions
+For inquiries, please contact [Vulong Pham]().
 
